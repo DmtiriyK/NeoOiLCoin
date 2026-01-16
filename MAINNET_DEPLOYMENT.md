@@ -110,3 +110,4 @@ Python scripts for token management are available in `/ops/scripts/`:
 For technical questions or support, refer to:
 - Repository: https://github.com/NeoXonline-Development/HALAL-COIN
 - Developer: Igor Migov
+
