@@ -13,9 +13,9 @@ export async function run(provider: NetworkProvider) {
         .storeStringTail(METADATA_URL)
         .endCell();
 
-    console.log('🪙 Deploying HALAL COIN Jetton Master...');
+    console.log('🪙 Deploying NeoOiLCoin Jetton Master...');
     console.log('📊 Parameters:');
-    console.log('   Total Supply: 100,000,000 HLLCN');
+    console.log('   Initial Supply: 0 OiLC (will be minted separately)');
     console.log('   Decimals: 3');
     console.log('   Admin Address:', ADMIN_ADDRESS.toString());
     console.log('   Metadata URL:', METADATA_URL);

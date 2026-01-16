@@ -1,7 +1,7 @@
 import { Address } from '@ton/core';
 
 /**
- * HALAL COIN Configuration
+ * NeoOiLCoin Configuration
  * 
  * Change these addresses before mainnet deployment!
  */
@@ -9,21 +9,21 @@ import { Address } from '@ton/core';
 export const CONFIG = {
     // Token Parameters
     TOKEN: {
-        TOTAL_SUPPLY: 100_000_000_000n, // 100 million HLLCN (with decimals=3)
+        TOTAL_SUPPLY: 0n, // (with decimals=3)
         DECIMALS: 3,
-        SYMBOL: 'HLLCN',
-        NAME: 'HALAL COIN',
+        SYMBOL: 'OiLC',
+        NAME: 'NeoOiLCoin',
     },
 
     // Admin/Owner address - receives all token management rights
     // Can: mint, change metadata, transfer ownership, disable minting
-    ADMIN_ADDRESS: 'UQCRSOwlZATn9aOeW09LYGp3iYJLa1NJuyWf5No6DMup6Srx',
+    ADMIN_ADDRESS: 'UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO',
 
     // Deployer address - taken from .env WALLET_MNEMONIC
     // Pays for contract deployment gas fees
 
     // Metadata URL
-    METADATA_URL: 'https://raw.githubusercontent.com/NeoXonline-Development/HALAL-COIN/main/metadata/jetton.json',
+    METADATA_URL: 'https://raw.githubusercontent.com/NeoXonline-Development/NeoOiLCoin/main/metadata/jetton.json',
 };
 
 // Helper function to parse admin address

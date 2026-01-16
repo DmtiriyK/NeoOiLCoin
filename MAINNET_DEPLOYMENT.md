@@ -1,15 +1,15 @@
-# HALAL COIN - Mainnet Deployment Summary
+# NeoOiLCoin - Mainnet Deployment Summary
 
-## ✅ Deployment Status: SUCCESSFUL
+## ✅ Deployment Status: PENDING
 
-**Deployment Date:** January 8, 2026  
+**Deployment Date:** TBD  
 **Network:** TON Blockchain (Mainnet)  
-**Contract Hash:** `c34250185962134945482c413e7b05d1dd49d0cc03974f8ccafaac120dc9250d`
+**Contract Hash:** `TBD`
 
 ## 📋 Token Parameters
 
-- **Name:** HALAL COIN
-- **Symbol:** HLLCN
+- **Name:** NeoOiLCoin
+- **Symbol:** OiLC
 - **Decimals:** 3
 - **Standard:** TEP-74 (Jetton)
 
@@ -17,9 +17,9 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Maximum Supply (Cap) | 200,000,000 HLLCN |
-| Initial Circulation | 100,000,000 HLLCN |
-| Reserved for Future | 100,000,000 HLLCN |
+| Maximum Supply (Cap) | 200,000,000 OiLC |
+| Initial Circulation | 100,000,000 OiLC |
+| Reserved for Future | 100,000,000 OiLC |
 
 **Supply Structure:**
 - The smart contract has a hard cap of 200M tokens to protect against inflation
@@ -31,18 +31,18 @@
 
 **Jetton Master Contract:**
 ```
-EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z
+TBD
 ```
 
 **Admin Address:**
 ```
-UQCRSOwlZATn9aOeW09LYGp3iYJLa1NJuyWf5No6DMup6Srx
+UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO
 ```
 
 ## 🔍 Explorer Links
 
-- **TONScan:** https://tonscan.org/address/EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z
-- **TONViewer:** https://tonviewer.com/EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z
+- **TONScan:** TBD
+- **TONViewer:** TBD
 
 ## 🔧 Contract Features
 
@@ -63,11 +63,11 @@ UQCRSOwlZATn9aOeW09LYGp3iYJLa1NJuyWf5No6DMup6Srx
 
 ## 🔐 Security Information
 
-- **Source Code:** https://github.com/NeoXonline-Development/HALAL-COIN
+- **Source Code:** Available in project repository
 - **Contract Language:** Tact 1.6.13
 - **Framework:** Blueprint 0.40.0+
 - **Tests:** 8/8 passed
-- **Metadata URL:** https://raw.githubusercontent.com/NeoXonline-Development/HALAL-COIN/main/metadata/jetton.json
+- **Metadata URL:** TBD
 
 ## 🛠️ Operational Scripts
 
@@ -86,7 +86,7 @@ Python scripts for token management are available in `/ops/scripts/`:
 ### For Token Holders
 - View your balance on TONScan or TONViewer
 - Transfer tokens using TON wallets that support Jettons
-- Trade on DEXs that support HLLCN
+- Trade on DEXs that support OiLC
 
 ### For Integration
 - Use standard TEP-74 Jetton interface
@@ -94,8 +94,8 @@ Python scripts for token management are available in `/ops/scripts/`:
 - Check balance via blockchain explorers or smart contract methods
 
 ### For Developers
-- Review smart contract code in `/onchain/halal-coin-onchain/contracts/`
-- Use TypeScript scripts in `/onchain/halal-coin-onchain/scripts/`
+- Review smart contract code in contracts directory
+- Use TypeScript scripts for deployment and management
 - Follow Blueprint framework conventions
 
 ## ⚠️ Important Notes
@@ -107,7 +107,5 @@ Python scripts for token management are available in `/ops/scripts/`:
 
 ## 📞 Support
 
-For technical questions or support, refer to:
-- Repository: https://github.com/NeoXonline-Development/HALAL-COIN
-- Developer: Igor Migov
+For technical questions or support, refer to project documentation.
 

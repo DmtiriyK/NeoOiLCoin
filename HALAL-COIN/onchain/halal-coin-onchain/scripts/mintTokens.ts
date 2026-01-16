@@ -6,13 +6,16 @@ import { CONFIG, getAdminAddress } from '../config';
 export async function run(provider: NetworkProvider) {
     const JETTON_MASTER_ADDRESS = Address.parse(await provider.ui().input('Enter Jetton Master address'));
     const ADMIN_ADDRESS = getAdminAddress();
-    const MINT_AMOUNT = CONFIG.TOKEN.TOTAL_SUPPLY;
+    
+    // Ask for amount to mint (in OiLC with decimals)
+    const amountInput = await provider.ui().input('Enter amount to mint (in OiLC, e.g., 100000000 for 100M):');
+    const MINT_AMOUNT = BigInt(amountInput) * 1000n; // Convert to smallest units (decimals=3)
 
-    console.log('🪙 Minting HALAL COIN tokens...');
+    console.log('🪙 Minting NeoOiLCoin tokens...');
     console.log('📊 Parameters:');
     console.log('   Jetton Master:', JETTON_MASTER_ADDRESS.toString());
     console.log('   Receiver (Admin):', ADMIN_ADDRESS.toString());
-    console.log('   Amount: 100,000,000 HLLCN');
+    console.log('   Amount:', amountInput, 'OiLC');
 
     const jettonController = provider.open(JettonController.fromAddress(JETTON_MASTER_ADDRESS));
 

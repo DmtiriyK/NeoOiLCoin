@@ -1,4 +1,4 @@
-# halal-coin-onchain
+# neooilcoin-onchain
 
 ## Project structure
 

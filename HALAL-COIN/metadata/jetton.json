@@ -1,16 +1,16 @@
 {
-  "name": "HALAL COIN",
-  "symbol": "HLLCN",
+  "name": "NeoOiLCoin",
+  "symbol": "OiLC",
   "decimals": "3",
-  "description": "HALAL COIN (HLLCN) - Shariah-compliant decentralized token for fair exchange and commerce.",
-  "image": "",
+  "description": "NeoOiLCoin (OiLC) - Decentralized token for fair exchange and commerce.",
+  "image": "https://raw.githubusercontent.com/NeoXonline-Development/NeoOiLCoin/main/image-343.png",
   "image_data": "",
-  "admin": "UQCRSOwlZATn9aOeW09LYGp3iYJLa1NJuyWf5No6DMup6Srx",
-  "total_supply": "100000000000",
+  "admin": "UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO",
+  "total_supply": "0",
   "mintable": true,
   "website": "",
   "social": {
-    "github": "https://github.com/NeoXonline-Development/HALAL-COIN"
+    "github": ""
   }
 }
 

@@ -1,13 +1,13 @@
 {
   "network": "mainnet",
   "token": {
-    "name": "HALAL COIN",
-    "symbol": "HLLCN",
+    "name": "NeoOiLCoin",
+    "symbol": "OiLC",
     "decimals": 3
   },
   "addresses": {
-    "jetton_master": "EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z",
-    "admin": "UQCRSOwlZATn9aOeW09LYGp3iYJLa1NJuyWf5No6DMup6Srx"
+    "jetton_master": "TBD",
+    "admin": "UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO"
   },
   "transactions": {
     "deploy": "TBD",
@@ -16,7 +16,7 @@
     "revoke_or_close_mint": "TBD"
   },
    "metadata": {
-    "jetton_json": "https://raw.githubusercontent.com/NeoXonline-Development/HALAL-COIN/main/metadata/jetton.json",
+    "jetton_json": "https://raw.githubusercontent.com/NeoXonline-Development/NeoOiLCoin/main/metadata/jetton.json",
     "logo": ""
   },
     "notes": "Fill the TBD fields after deployment. Logo URL will be added later."

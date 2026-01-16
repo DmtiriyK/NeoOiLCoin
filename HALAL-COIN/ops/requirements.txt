@@ -1,0 +1,6 @@
+# TON Python Libraries
+pytoniq-core>=0.1.0
+tonutils>=0.1.0
+
+# Async support
+asyncio

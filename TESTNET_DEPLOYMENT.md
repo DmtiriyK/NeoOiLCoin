@@ -1,4 +1,4 @@
-# HALAL COIN - Testnet Deployment Guide
+# NeoOiLCoin - Testnet Deployment Guide
 
 ## ✅ Project Readiness
 
@@ -10,11 +10,11 @@ All components are ready:
 
 ## 📋 Token Parameters
 
-- **Name:** HALAL COIN
-- **Symbol:** HLLCN
+- **Name:** NeoOiLCoin
+- **Symbol:** OiLC
 - **Decimals:** 3
-- **Total Supply:** 100,000,000 HLLCN (100,000,000,000 with decimals)
-- **Admin/Deployer:** `0QCXmE4pmJLiJjekrTMh7vbDUxNwXbLO-hdY_7DsY6LPFiID` (single wallet for everything)
+- **Total Supply:** 100,000,000 OiLC (100,000,000,000 with decimals)
+- **Admin/Deployer:** `UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO` (single wallet for everything)
 - **Mintable:** Yes (with ability to change)
 
 ## 🚀 Testnet Deployment
@@ -26,7 +26,7 @@ All components are ready:
 
 2. Configure TON wallet in Blueprint:
    ```powershell
-   cd "c:\Users\kenih\OneDrive\Рабочий стол\HALAL-COIN\onchain\halal-coin-onchain"
+   cd "c:\Users\kenih\OneDrive\Рабочий стол\Test_coins\NeoOiLCoin\onchain\neooilcoin-onchain"
    ```
 
 ### Step 2: Deploy Jetton Master Contract
@@ -55,7 +55,7 @@ npx blueprint run mintTokens --testnet
 When prompted for Jetton Master address, enter the address from Step 2.
 
 The script will:
-- Send 100,000,000 HLLCN to admin address
+- Send 100,000,000 OiLC to admin address
 - Create Jetton Wallet for admin
 - Confirm transaction
 
@@ -121,14 +121,14 @@ npx blueprint run mintTokens --mainnet
 
 **Admin/Deployer Wallet (testnet):**
 ```
-0QCXmE4pmJLiJjekrTMh7vbDUxNwXbLO-hdY_7DsY6LPFiID
+UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO
 ```
 
 ## 📝 Metadata
 
 **Current metadata URL:**
 ```
-https://raw.githubusercontent.com/NeoXonline-Development/HALAL-COIN/main/metadata/jetton.json
+TBD
 ```
 
 **To add logo:**
@@ -154,7 +154,7 @@ https://raw.githubusercontent.com/NeoXonline-Development/HALAL-COIN/main/metadat
 - Without correct code, function will not work
 
 **When NOT to use:**
-- ❌ If token should remain mintable (like HALAL COIN)
+- ❌ If token should remain mintable (like NeoOiLCoin)
 - ❌ When transferring rights to client (leave minting ability)
 - ❌ If not 100% certain
 

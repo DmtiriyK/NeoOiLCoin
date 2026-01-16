@@ -26,7 +26,7 @@ async def main() -> None:
     jetton_master = _required("JETTON_MASTER_ADDRESS")
     destination = _required("DESTINATION_ADDRESS")
     
-    # Jetton decimals (default: 3 for HALAL COIN)
+    # Jetton decimals (default: 3 for NeoOiLCoin)
     decimals = int(os.getenv("JETTON_DECIMALS", "3"))
     
     # Amount of jettons to transfer (in human-readable units, e.g., 0.01)

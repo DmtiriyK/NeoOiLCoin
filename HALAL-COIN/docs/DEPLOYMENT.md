@@ -1,8 +1,8 @@
-# HALAL COIN (HLLCN) – Jetton deployment checklist
+# NeoOiLCoin (OiLC) – Jetton deployment checklist
 
 ## Token parameters (source of truth)
-- Name: HALAL COIN
-- Symbol: HLLCN
+- Name: NeoOiLCoin
+- Symbol: OiLC
 - Decimals: 3
 - Metadata: /metadata/jetton.json
 
@@ -23,20 +23,20 @@ Save and publish:
 
 ## Mainnet Deployment ✅
 
-**Deployment Date:** January 8, 2026
+**Deployment Date:** TBD
 
 ### Contract Addresses
-- **Jetton Master:** `EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z`
-- **Admin Address:** `UQCRSOwlZATn9aOeW09LYGp3iYJLa1NJuyWf5No6DMup6Srx`
+- **Jetton Master:** `TBD`
+- **Admin Address:** `UQBhrm5E2njlRRCvJbOAuO0Sp-o7HHEsWaiSoDhI6CiDFZuO`
 
 ### Explorers
-- TONScan: https://tonscan.org/address/EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z
-- TONViewer: https://tonviewer.com/EQBBaBRT2ozwbZsntfTJKMgEK2Sfj9WksE8z_9wktS6Rea3z
+- TONScan: TBD (will be available after deployment)
+- TONViewer: TBD (will be available after deployment)
 
 ### Supply Configuration
-- **Maximum Supply (Cap):** 200,000,000 HLLCN
-- **Initial Circulation:** 100,000,000 HLLCN
-- **Reserved for Future:** 100,000,000 HLLCN
+- **Maximum Supply (Cap):** 200,000,000 OiLC
+- **Initial Circulation:** 100,000,000 OiLC
+- **Reserved for Future:** 100,000,000 OiLC
 
 ### Token Features
 - ✅ Mintable (owner can mint more tokens within cap)
@@ -46,5 +46,5 @@ Save and publish:
 - ⚠️ Immutable code (contract logic cannot be changed)
 
 ### Security
-- Smart contract code: https://github.com/NeoXonline-Development/HALAL-COIN
-- Metadata: https://raw.githubusercontent.com/NeoXonline-Development/HALAL-COIN/main/metadata/jetton.json
+- Smart contract code available in project repository
+- Metadata: Available after deployment

@@ -1,4 +1,4 @@
-// HALAL COIN Jetton Implementation
+// NeoOiLCoin Jetton Implementation
 // Based on TEP-74 Standard
 // https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md
 
